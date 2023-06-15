@@ -59,7 +59,7 @@ document.getElementById("btn-login").addEventListener("click", async (e) => {
   } else if (response.status === 401) {
     errorMessage.textContent = "Accès non autorisé. Veuillez vérifier vos identifiants.";
   } else if (response.status === 404) {
-    errorMessage.textContent = "Utilisateur  introuvable.";
+    errorMessage.textContent = "Utilisateur introuvable.";
   } 
 });
 
