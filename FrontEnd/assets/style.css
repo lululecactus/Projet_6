@@ -193,7 +193,9 @@ footer {
 	justify-content: flex-end;
 	background: #FFFFFF;
 }
-
+button {
+	border: none;
+}
 /* login page */
 .user-login-container {
 	margin-top: 100px;
@@ -591,8 +593,8 @@ footer {
 }
 #imagePreview {
 	position: absolute;
-	max-width: 400px;
-	max-height: 155px;
+	max-width: 450px;
+	max-height: 150px;
 	object-fit: cover;
 }
 #returnPreview {
@@ -603,16 +605,16 @@ footer {
 	border: none;
 	border-radius: 50%;
 	position: absolute;
-	top: 214px;
-	left: 85px;
-	width: 45px;
-	height: 45px;
-	background: #E8F1F7;
+	/* top: 214px; */
+	right: 100px;
+	width: 25px;
+	height: 25px;
+	background: #1D6154;
 	cursor: pointer;
-	color: #CBD6DC;
+	color: #fff;
 	font-size: 18px;
 }
-#returnPreview:hover {
+/* #returnPreview:hover {
 	
 	color: #306685;
-}
+} */
